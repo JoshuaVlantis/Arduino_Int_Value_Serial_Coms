@@ -14,6 +14,6 @@ void loop()
                                 //  Assign thumbstick to "i"
                                 //  int i = analogRead(A0);
       Serial.write(i);          //  Writes value to serial 
-      delay(50);                //  Delay for stablity after writing to the serial 
+      delay(50);                //  Delay for stability after writing to the serial 
     }
 }
